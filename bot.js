@@ -11,7 +11,7 @@ client.on('message', msg => {
     msg.reply('Success Turned the protection : **ON**');
   }
 });
-client.login('NTE4MDY0OTg0NzYxMTcxOTc4.Duq3ag.ErqnBY48J4ZAfaBq61o0rYuVtao');
+client.login(process.env.BOT_TOKEN);
 
 client.on('message', message => {
   if(message.content === prefix + "closeroom") {
