@@ -366,7 +366,7 @@ message.channel.send("**``يجب ان تكون في روم صوتي لكي تق�
 message.react("❌")
 }}});
 
-var prefix = "$";
+
 
 client.on("message", message => {
 
