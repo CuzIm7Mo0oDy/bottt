@@ -133,7 +133,7 @@ if(!mention) return message.reply("منشن شخص");
 
 Room.send(`
 **» العضو :** ${mention}
-[ :checked ] :: لقد تم قبول العضو واعطائه رتبة هيلبر`);
+[ :checked: ] : لقد تم قبول العضو واعطائه رتبة هيلبر`);
 
 }
 
